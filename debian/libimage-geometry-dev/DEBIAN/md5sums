@@ -1,0 +1,8 @@
+2737018ab58f3c6667df1c0d0f6241a7  usr/include/image_geometry/pinhole_camera_model.h
+8fd4498d7b638f3ec99812c8ae30f34e  usr/include/image_geometry/stereo_camera_model.h
+2658c36595fbb7f93f2d7252913b3b3d  usr/lib/x86_64-linux-gnu/pkgconfig/image_geometry.pc
+04558fb843a9f5a16f59804f8233f562  usr/share/doc/libimage-geometry-dev/changelog.Debian.gz
+f8c02d6f0fa96c764c9e23aae8b14e56  usr/share/doc/libimage-geometry-dev/copyright
+4d01ad8acc4f7a1ee118820a9da9db34  usr/share/image_geometry/cmake/image_geometryConfig-version.cmake
+97a595ef0d73ce73d585689b30de29a3  usr/share/image_geometry/cmake/image_geometryConfig.cmake
+1719509b3fee21360a9432f0529a8281  usr/share/image_geometry/package.xml

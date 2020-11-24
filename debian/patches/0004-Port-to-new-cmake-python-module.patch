@@ -1,0 +1,27 @@
+From: Jochen Sprickerhof <git@jochen.sprickerhof.de>
+Date: Mon, 23 Dec 2019 12:00:33 +0100
+Subject: Port to new cmake python module
+
+---
+ cv_bridge/CMakeLists.txt | 8 ++------
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+
+diff --git a/cv_bridge/CMakeLists.txt b/cv_bridge/CMakeLists.txt
+index c203aad..2bee979 100644
+--- a/cv_bridge/CMakeLists.txt
++++ b/cv_bridge/CMakeLists.txt
+@@ -4,12 +4,8 @@ project(cv_bridge)
+ find_package(catkin REQUIRED COMPONENTS rosconsole sensor_msgs)
+ 
+ if(NOT ANDROID)
+-  find_package(PythonLibs)
+-  if(PYTHONLIBS_VERSION_STRING VERSION_LESS 3)
+-    find_package(Boost REQUIRED python)
+-  else()
+-    find_package(Boost REQUIRED python3)
+-  endif()
++  find_package(Python REQUIRED COMPONENTS Development)
++  find_package(Boost REQUIRED COMPONENTS python${Python_VERSION_MAJOR}${Python_VERSION_MINOR})
+ else()
+ find_package(Boost REQUIRED)
+ endif()

@@ -1,0 +1,8 @@
+prefix=/root/ros-vision-opencv-1.13.0+ds/obj-x86_64-linux-gnu/devel
+
+Name: cv_bridge
+Description: Description of cv_bridge
+Version: 1.13.0
+Cflags: -I/root/ros-vision-opencv-1.13.0+ds/cv_bridge/include -I/usr/include/opencv4
+Libs: -L${prefix}/lib -lcv_bridge /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0 /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+Requires: rosconsole sensor_msgs

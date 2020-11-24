@@ -1,0 +1,6 @@
+python3:Depends=python3-numpy (>= 1:1.16.0~rc1), python3-numpy-abi9, python3 (<< 3.9), python3 (>= 3.8~), python3:any
+python3:Provides=python3.8-cv-bridge
+python3:Versions=3.8
+shlibs:Depends=libboost-python1.71.0, libboost-python1.71.0-py38, libc6 (>= 2.14), libcv-bridge1d (>= 1.13.0+ds), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2)
+misc:Depends=
+misc:Pre-Depends=

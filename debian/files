@@ -1,0 +1,10 @@
+libcv-bridge-dev_1.13.0+ds-5build6_amd64.deb libdevel optional
+libcv-bridge1d-dbgsym_1.13.0+ds-5build6_amd64.ddeb debug optional automatic=yes
+libcv-bridge1d_1.13.0+ds-5build6_amd64.deb libs optional
+libimage-geometry-dev_1.13.0+ds-5build6_amd64.deb libdevel optional
+libimage-geometry0d-dbgsym_1.13.0+ds-5build6_amd64.ddeb debug optional automatic=yes
+libimage-geometry0d_1.13.0+ds-5build6_amd64.deb libs optional
+python3-cv-bridge-dbgsym_1.13.0+ds-5build6_amd64.ddeb debug optional automatic=yes
+python3-cv-bridge_1.13.0+ds-5build6_amd64.deb python optional
+python3-image-geometry_1.13.0+ds-5build6_all.deb python optional
+ros-vision-opencv_1.13.0+ds-5build6_amd64.buildinfo libs optional

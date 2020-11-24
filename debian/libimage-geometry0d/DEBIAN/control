@@ -1,0 +1,20 @@
+Package: libimage-geometry0d
+Source: ros-vision-opencv
+Version: 1.13.0+ds-5build6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 75
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-calib3d4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 5.2)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://wiki.ros.org/vision_opencv
+Description: image_geometry Robot OS package - runtime
+ This package is part of Robot OS (ROS). It contains libraries for interpreting
+ images geometrically. It interfaces the calibration parameters in
+ sensor_msgs/CameraInfo messages with OpenCV functions such as
+ image rectification, much as cv_bridge interfaces ROS sensor_msgs/Image with
+ OpenCV data types.
+ .
+ This package contains the C++ library.
+Original-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>

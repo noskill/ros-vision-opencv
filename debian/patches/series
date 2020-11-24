@@ -1,0 +1,4 @@
+0001-Add-CMakeLists.txt.patch
+0002-Add-Debian-specific-SOVERSION.patch
+288.patch
+0004-Port-to-new-cmake-python-module.patch

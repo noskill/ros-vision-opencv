@@ -1,0 +1,184 @@
+ros-vision-opencv (1.13.0+ds-5build6) focal; urgency=medium
+
+  * No-change rebuild for icu soname change.
+
+ -- Matthias Klose <doko@ubuntu.com>  Thu, 05 Mar 2020 08:56:25 +0100
+
+ros-vision-opencv (1.13.0+ds-5build5) focal; urgency=medium
+
+  * No-change rebuild for icu soname change.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 03 Mar 2020 21:23:16 +0100
+
+ros-vision-opencv (1.13.0+ds-5build4) focal; urgency=medium
+
+  * No-change rebuild against libboost-regex1.71.0-icu65
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Thu, 13 Feb 2020 19:04:48 +0000
+
+ros-vision-opencv (1.13.0+ds-5build3) focal; urgency=medium
+
+  * No change rebuild against new boost1.71 ABI
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Mon, 03 Feb 2020 21:37:12 +0000
+
+ros-vision-opencv (1.13.0+ds-5build2) focal; urgency=medium
+
+  * No-change upload for opencv soname changes.
+
+ -- Matthias Klose <doko@ubuntu.com>  Sun, 02 Feb 2020 09:17:14 +0100
+
+ros-vision-opencv (1.13.0+ds-5build1) focal; urgency=medium
+
+  * No-change rebuild to build with python3.8.
+
+ -- Matthias Klose <doko@ubuntu.com>  Sat, 25 Jan 2020 06:19:37 +0000
+
+ros-vision-opencv (1.13.0+ds-5) unstable; urgency=medium
+
+  * Add patch for cmake python module
+  * Drop ROS_PYTHON_VERSION from d/rules (not needed)
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Mon, 23 Dec 2019 12:14:25 +0100
+
+ros-vision-opencv (1.13.0+ds-4) unstable; urgency=medium
+
+  * Drop Python 3 patch
+  * Add OpenCV 4 patch (Closes: #922592)
+  * switch to debhelper-compat and debhelper 12
+  * Bump policy version (no changes)
+  * simplify d/watch
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Sun, 20 Oct 2019 23:56:29 +0200
+
+ros-vision-opencv (1.13.0+ds-3) unstable; urgency=medium
+
+  * Team upload.
+  * Drop Python 2 support.  Closes: #938405
+
+ -- Mattia Rizzolo <mattia@debian.org>  Sun, 13 Oct 2019 13:44:40 +0200
+
+ros-vision-opencv (1.13.0+ds-2) unstable; urgency=medium
+
+  * Add Python 3 package
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Sat, 03 Nov 2018 18:11:43 +0100
+
+ros-vision-opencv (1.13.0+ds-1) unstable; urgency=medium
+
+  * Restrict d/watch to ROS1 (and general cleanup)
+  * New upstream version 1.13.0+ds
+  * Rebase patches
+  * Bump policy and debhelper versions
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Sat, 03 Nov 2018 00:06:59 +0100
+
+ros-vision-opencv (1.12.3+ds-2) unstable; urgency=medium
+
+  * Port to debhelper 10
+  * Update Vcs URLs to salsa.d.o
+  * Add R³
+  * http -> https
+  * Update policy and debhelper versions
+  * Add missing dependencies (Closes: #896383, #896406)
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Sat, 21 Apr 2018 10:11:00 +0200
+
+ros-vision-opencv (1.12.3+ds-1) unstable; urgency=medium
+
+  * New upstream version 1.12.3+ds
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Tue, 06 Dec 2016 10:57:41 +0100
+
+ros-vision-opencv (1.12.2+ds-3) unstable; urgency=medium
+
+  * remove unneeded dependencies
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Fri, 11 Nov 2016 11:33:24 +0100
+
+ros-vision-opencv (1.12.2+ds-2) unstable; urgency=medium
+
+  * Uploaded to unstable. Transition initiated.
+
+ -- Leopold Palomo-Avellaneda <leo@alaxarxa.net>  Tue, 01 Nov 2016 23:00:30 +0100
+
+ros-vision-opencv (1.12.2+ds-1) experimental; urgency=medium
+
+  [ Leopold Palomo-Avellaneda ]
+  * Imported Upstream version 1.12.2+ds
+  * Dropped opencv-apps. Upstream move it to another package
+  * Update changelog
+  * Added hardening to rules
+  * Updated copyright
+
+  [ Jochen Sprickerhof ]
+  * Update d/copyright
+  * Bump Soname of libcv-bridge
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Thu, 27 Oct 2016 18:07:25 +0200
+
+ros-vision-opencv (1.11.11+ds-4) unstable; urgency=medium
+
+  * Add missing dependency
+  * Bumped Standards-Version to 3.9.8, no changes needed.
+  * Update my email address
+  * Fix build dependencies (Closes: #835745)
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Tue, 30 Aug 2016 23:35:52 +0200
+
+ros-vision-opencv (1.11.11+ds-3) unstable; urgency=medium
+
+  * Updated Vcs-Browser and Vcs-Git fields
+  * Deleted dropped software entry
+  * Silencing some lintian warnings
+  * Moved arch-depenent files from libopencv-apps0d. Closes: #815876
+  * Dropped unused license
+  * Bump Standards-Version to 3.9.7 (no changes)
+  * Updated watch file with the mangle suffix
+
+ -- Leopold Palomo-Avellaneda <leo@alaxarxa.net>  Thu, 03 Mar 2016 16:43:06 +0100
+
+ros-vision-opencv (1.11.11+ds-2) unstable; urgency=medium
+
+  * Adopt to new libexec location in catkin
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Wed, 24 Feb 2016 18:48:06 +0100
+
+ros-vision-opencv (1.11.11+ds-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.11.11+ds
+  * Update patches
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Fri, 05 Feb 2016 11:43:33 +0100
+
+ros-vision-opencv (1.11.10+ds-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.11.10+ds
+  * Refresh patches
+  * Add new librostest-dev build dependency
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Tue, 19 Jan 2016 11:32:58 +0100
+
+ros-vision-opencv (1.11.9+ds-3) unstable; urgency=medium
+
+  * Fix package descriptions (Closes: #810956)
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Fri, 15 Jan 2016 14:51:32 +0100
+
+ros-vision-opencv (1.11.9+ds-2) unstable; urgency=medium
+
+  * Include -dev package dependency fixes
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Sun, 10 Jan 2016 01:25:31 +0000
+
+ros-vision-opencv (1.11.9+ds-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.11.9+ds (remove embedded Boost)
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Mon, 04 Jan 2016 12:50:28 +0000
+
+ros-vision-opencv (1.11.9-1) unstable; urgency=medium
+
+  * Initial release (Closes: #804041)
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Mon, 28 Dec 2015 23:32:38 +0000

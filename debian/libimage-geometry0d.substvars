@@ -1,0 +1,4 @@
+python3:Depends=python3-numpy (>= 1:1.16.0~rc1), python3-numpy-abi9
+shlibs:Depends=libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-calib3d4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 5.2)
+misc:Depends=
+misc:Pre-Depends=

@@ -1,0 +1,83 @@
+Source: ros-vision-opencv
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Thomas Moulard <thomas.moulard@gmail.com>,
+           Jochen Sprickerhof <jspricke@debian.org>,
+           Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Build-Depends: debhelper-compat (= 12), catkin, librosconsole-dev, libsensor-msgs-dev, libboost-python-dev, libopencv-dev, dh-python, librostest-dev, python3-numpy, python3-dev
+Standards-Version: 4.4.1
+Section: libs
+Rules-Requires-Root: no
+Homepage: https://wiki.ros.org/vision_opencv
+Vcs-Git: https://salsa.debian.org/science-team/ros-vision-opencv.git
+Vcs-Browser: https://salsa.debian.org/science-team/ros-vision-opencv
+
+Package: libcv-bridge-dev
+Section: libdevel
+Architecture: any
+Depends: libcv-bridge1d (= ${binary:Version}), ${misc:Depends}, librosconsole-dev, libsensor-msgs-dev, libopencv-dev
+Description: cv_bridge Robot OS package - development
+ This package is part of Robot OS (ROS). It contains development files for
+ CvBridge, which converts between ROS Image messages and OpenCV images.
+ .
+ This package contains the development files.
+
+Package: libcv-bridge1d
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: cv_bridge Robot OS package
+ This package is part of Robot OS (ROS). It contains the library for
+ CvBridge, which converts between ROS Image messages and OpenCV images.
+ .
+ This package contains the library itself.
+
+Package: python3-cv-bridge
+Section: python
+Architecture: any
+Depends: ${python3:Depends}, ${shlibs:Depends}, ${misc:Depends}, python3-genpy, python3-std-msgs, python3-sensor-msgs
+Description: cv_bridge ROS package - Python 3 bindings
+ This package is part of Robot OS (ROS). It contains the Python interface for
+ CvBridge, which converts between ROS Image messages and OpenCV images.
+ .
+ This package contains Python 3 code.
+
+Package: libimage-geometry-dev
+Section: libdevel
+Architecture: any
+Depends: libimage-geometry0d (= ${binary:Version}), ${misc:Depends}, libopencv-dev, libsensor-msgs-dev
+Description: image_geometry Robot OS package - development
+ This package is part of Robot OS (ROS). It contains libraries for interpreting
+ images geometrically. It interfaces the calibration parameters in
+ sensor_msgs/CameraInfo messages with OpenCV functions such as
+ image rectification, much as cv_bridge interfaces ROS sensor_msgs/Image with
+ OpenCV data types.
+ .
+ This package contains the C++ development library.
+
+Package: libimage-geometry0d
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: image_geometry Robot OS package - runtime
+ This package is part of Robot OS (ROS). It contains libraries for interpreting
+ images geometrically. It interfaces the calibration parameters in
+ sensor_msgs/CameraInfo messages with OpenCV functions such as
+ image rectification, much as cv_bridge interfaces ROS sensor_msgs/Image with
+ OpenCV data types.
+ .
+ This package contains the C++ library.
+
+Package: python3-image-geometry
+Section: python
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3-genpy, python3-std-msgs, python3-opencv, python3-sensor-msgs
+Description: image_geometry Robot OS package - Python 3 bindings
+ This package is part of Robot OS (ROS). It contains libraries for interpreting
+ images geometrically. It interfaces the calibration parameters in
+ sensor_msgs/CameraInfo messages with OpenCV functions such as
+ image rectification, much as cv_bridge interfaces ROS sensor_msgs/Image with
+ OpenCV data types.
+ .
+ This package contains the Python 3 interface.
