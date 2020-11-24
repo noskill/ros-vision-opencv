@@ -1,8 +1,0 @@
-prefix=/usr
-
-Name: opencv_tests
-Description: Description of opencv_tests
-Version: 1.13.0
-Cflags: 
-Libs:  
-Requires: 

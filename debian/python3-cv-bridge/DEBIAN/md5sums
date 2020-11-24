@@ -1,6 +1,0 @@
-5308cf9f1a83f6d94b2821f8a293b9a2  usr/lib/python3/dist-packages/cv_bridge/__init__.py
-d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/cv_bridge/boost/__init__.py
-d7e6e038d2493acb476aba2e583b4af8  usr/lib/python3/dist-packages/cv_bridge/boost/cv_bridge_boost.cpython-38-x86_64-linux-gnu.so
-c7345fe4ad05a47ec5769e0110f5a34a  usr/lib/python3/dist-packages/cv_bridge/core.py
-04558fb843a9f5a16f59804f8233f562  usr/share/doc/python3-cv-bridge/changelog.Debian.gz
-f8c02d6f0fa96c764c9e23aae8b14e56  usr/share/doc/python3-cv-bridge/copyright

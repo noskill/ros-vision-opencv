@@ -1,9 +1,0 @@
-ca3d047f77f1be4b882be8fc67b53299  usr/include/cv_bridge/cv_bridge.h
-67cb70a439863724c7437d85a3ffb334  usr/include/cv_bridge/rgb_colors.h
-568774984e77a7eaeaf3df382c9618e6  usr/lib/x86_64-linux-gnu/pkgconfig/cv_bridge.pc
-5866e7824ba65c2a2be8bd4095934f48  usr/share/cv_bridge/cmake/cv_bridge-extras.cmake
-4d01ad8acc4f7a1ee118820a9da9db34  usr/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
-a854024b98191ee8840f93c149d409d0  usr/share/cv_bridge/cmake/cv_bridgeConfig.cmake
-2f33617571cbd9fda42e1a30901b2979  usr/share/cv_bridge/package.xml
-04558fb843a9f5a16f59804f8233f562  usr/share/doc/libcv-bridge-dev/changelog.Debian.gz
-f8c02d6f0fa96c764c9e23aae8b14e56  usr/share/doc/libcv-bridge-dev/copyright
